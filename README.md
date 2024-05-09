@@ -106,3 +106,4 @@ Bibtex:
 	author={Adarsh Rouniyar and Sapdo Utomo and John A and Pao-Ann Hsiung},
 	year={2023}
 }
+![Sample Image](figures/LIME.png)
