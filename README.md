@@ -93,9 +93,13 @@ For the explainable AI we have implemented LIME Usability and quality explanatio
 
 As for the code sample you can open this [notebook](AIX_LIME.ipynb) or [Kaggle notebook](https://www.kaggle.com/code/momo88/pm2-5-value-estimation-with-lime)
 
-The proposed architecture of the model is depicted in Figure below.
+The figure below illustrates the proposed architecture of the model, and you can download the pre-trained model weight [here](LIME_20240506.best.hdf5).
+
 ![Img2](figures/Model.png)
 
+The following samples show the explained output images from LIME.
+
+![Img3](figures/LIME_Sample.PNG)
 
 
 6. If you use this dataset for any purpose, please cite it as the source of the data in any publications or presentations,
@@ -103,18 +107,55 @@ resulting from the use of this dataset.
 
 **Citation Request: You can cite our dataset as follows**
 
+**Paper 1 --> Explainable AI Implementation**
+
 APA:
 
-Adarsh Rouniyar, Sapdo Utomo, John A, &amp; Pao-Ann Hsiung. (2023). <i>Air Pollution Image Dataset from India and Nepal</i> [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DS/3152196
+Utomo, S., John, A., Pratap, A., Jiang, Z. S., Karthikeyan, P., & Hsiung, P. A. (2023, February). <i>AIX implementation in image-based PM2. 5 estimation: Toward an AI model for better understanding.</i> In 2023 15th International Conference on Knowledge and Smart Technology (KST) (pp. 1-6). IEEE. DOI: https://doi.org/10.1109/KST57286.2023.10086917
 
 Bibtex:
 
- @misc{adarsh rouniyar_sapdo utomo_john a_pao-ann hsiung_2023,
-	title={Air Pollution Image Dataset from India and Nepal},
-	url={https://www.kaggle.com/ds/3152196},
-	DOI={10.34740/KAGGLE/DS/3152196},
-	publisher={Kaggle},
-	author={Adarsh Rouniyar and Sapdo Utomo and John A and Pao-Ann Hsiung},
-	year={2023}
+@inproceedings{utomo2023aix,
+  title={AIX implementation in image-based PM2. 5 estimation: Toward an AI model for better understanding},
+  author={Utomo, Sapdo and John, A and Pratap, Ayush and Jiang, Zhi-Sheng and Karthikeyan, P and Hsiung, Pao-Ann},
+  booktitle={2023 15th International Conference on Knowledge and Smart Technology (KST)},
+  pages={1--6},
+  year={2023},
+  organization={IEEE}
+}
+
+**Paper 2 --> Efficient Model for Image-based Air Qulity Prediction**
+
+APA:
+
+Utomo, S., Rouniyar, A., Jiang, G. H., Chang, C. H., Tang, K. C., Hsu, H. C., & Hsiung, P. A. (2023, September). <i>Eff-AQI: An Efficient CNN-Based Model for Air Pollution Estimation: A Study Case in India.</i> In Proceedings of the 2023 ACM Conference on Information Technology for Social Good (pp. 165-172). DOI: https://doi.org/10.1145/3582515.3609531
+
+Bibtex:
+
+@inproceedings{utomo2023eff,
+  title={Eff-AQI: An Efficient CNN-Based Model for Air Pollution Estimation: A Study Case in India},
+  author={Utomo, Sapdo and Rouniyar, Adarsh and Jiang, Guo Hao and Chang, Chun Hao and Tang, Kai Chun and Hsu, Hsiu-Chun and Hsiung, Pao-Ann},
+  booktitle={Proceedings of the 2023 ACM Conference on Information Technology for Social Good},
+  pages={165--172},
+  year={2023}
+}
+
+**Paper 3 --> Secure and Robust Federated Learning for Smart City Applications**
+
+APA:
+
+Utomo, S., Rouniyar, A., Hsu, H. C., & Hsiung, P. A. (2023). Federated Adversarial Training Strategies for Achieving Privacy and Security in Sustainable Smart City Applications. Future Internet, 15(11), 371. DOI: https://doi.org/10.3390/fi15110371
+
+Bibtex:
+
+@article{utomo2023federated,
+  title={Federated Adversarial Training Strategies for Achieving Privacy and Security in Sustainable Smart City Applications},
+  author={Utomo, Sapdo and Rouniyar, Adarsh and Hsu, Hsiu-Chun and Hsiung, Pao-Ann},
+  journal={Future Internet},
+  volume={15},
+  number={11},
+  pages={371},
+  year={2023},
+  publisher={MDPI}
 }
 
