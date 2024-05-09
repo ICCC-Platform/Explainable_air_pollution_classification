@@ -1,0 +1,9 @@
+opendatasets
+matplotlib
+seaborn
+statsmodels
+pandas
+numpy>=1.19
+keras
+tensorflow==2.4
+Lime
