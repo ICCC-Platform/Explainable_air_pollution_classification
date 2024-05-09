@@ -87,6 +87,12 @@ You can also use it for research on air pollution in different cities. For refer
 
 https://www.kaggle.com/code/momo88/vgg16-translearning-for-image-based-aqi-estimation
 
+For the explainable AI we have implemented LIME Usability and quality explanations for various black-model outputs are two of LIME’s primary selling factors. Figure below depicts a proposed model that takes in input and produces some type of prediction or classification. LIME perturbed the proposed model with the same input in order to determine which features or superpixels had the greatest influence on prediction. LIME then creates an explanation based on this procedure to enlighten the user or developer and aid in troubleshooting if the model’s output performance is inadequate.
+
+![Sample Image](figures/LIME.png)
+
+As for the code sample you can open this notebook ![Alt text](AIX_LIME.ipynb)
+
 6. If you use this dataset for any purpose, please cite it as the source of the data in any publications or presentations,
 resulting from the use of this dataset.
 
@@ -106,4 +112,4 @@ Bibtex:
 	author={Adarsh Rouniyar and Sapdo Utomo and John A and Pao-Ann Hsiung},
 	year={2023}
 }
-![Sample Image](figures/LIME.png)
+
