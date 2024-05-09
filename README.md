@@ -93,6 +93,9 @@ For the explainable AI we have implemented LIME Usability and quality explanatio
 
 As for the code sample you can open this [notebook](AIX_LIME.ipynb) or [Kaggle notebook](https://www.kaggle.com/code/momo88/pm2-5-value-estimation-with-lime)
 
+The proposed architecture of the model is depicted in Figure below.
+![Img2](figures/Model.png)
+
 
 
 6. If you use this dataset for any purpose, please cite it as the source of the data in any publications or presentations,
